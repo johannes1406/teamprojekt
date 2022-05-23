@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5db4ef75-98f3-4b4f-8a2c-7637cd5cb324" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/api/main.py" beforeDir="false" />
+    <list default="true" id="5db4ef75-98f3-4b4f-8a2c-7637cd5cb324" name="Changes" comment="Testcaone erste Schritte">
+      <change afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,11 @@
     "node.js.selected.package.eslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +59,7 @@
       <workItem from="1652212338060" duration="2362000" />
       <workItem from="1653299215775" duration="399000" />
       <workItem from="1653329589941" duration="856000" />
-      <workItem from="1653333981251" duration="501000" />
+      <workItem from="1653333981251" duration="941000" />
     </task>
     <task id="LOCAL-00001" summary="First Try">
       <created>1651144756155</created>
@@ -111,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653334164613</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Testcaone erste Schritte">
+      <created>1653337089117</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653337089117</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Testcaone erste Schritte">
+      <created>1653337129947</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653337129947</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
