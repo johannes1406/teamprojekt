@@ -6,7 +6,7 @@ import re
 import random
 
 
-# import smtplib
+import smtplib
 # from email.mime.text import MIMEText
 
 
@@ -1627,5 +1627,5 @@ def webhook():
         }
 
 
-#if __name__ == '__main__':
-#    app.run(host='0.0.0.0', port=8080)  # This line is required to run Flask on repl.it
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8080)  # This line is required to run Flask on repl.it
