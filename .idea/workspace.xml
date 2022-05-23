@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5db4ef75-98f3-4b4f-8a2c-7637cd5cb324" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +61,7 @@
       <workItem from="1652212338060" duration="2362000" />
       <workItem from="1653299215775" duration="399000" />
       <workItem from="1653329589941" duration="856000" />
-      <workItem from="1653333981251" duration="1442000" />
+      <workItem from="1653333981251" duration="1679000" />
     </task>
     <task id="LOCAL-00001" summary="First Try">
       <created>1651144756155</created>
@@ -142,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653337533815</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Testcaone erste Schritte">
+      <created>1653338098335</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653338098335</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
