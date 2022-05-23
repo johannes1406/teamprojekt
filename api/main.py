@@ -88,10 +88,10 @@ def webhook():
         print(str_versicherungsbetrag_einrichtungswert)
         str_versicherungsbetrag_einrichtungswert = str_versicherungsbetrag_einrichtungswert.replace('.', ',')
         if ',' in str_versicherungsbetrag_einrichtungswert:
-            str_versicherungsbetrag_einrichtungswert = re.sub(r'(?<!^)(?=(\d{3})+,)', r'.',
+            str_versicherungsbetrag_einrichtungswert = re.sub(r'(?<!^)(?=(\d{3})+,)', r'..',
                                                               str_versicherungsbetrag_einrichtungswert)
         else:
-            str_versicherungsbetrag_einrichtungswert = re.sub(r'(?<!^)(?=(\d{3})+$)', r'.',
+            str_versicherungsbetrag_einrichtungswert = re.sub(r'(?<!^)(?=(\d{3})+$)', r'..',
                                                               str_versicherungsbetrag_einrichtungswert)
         return str_versicherungsbetrag_einrichtungswert
 
@@ -182,15 +182,15 @@ def webhook():
                 dummie = "Nun zurück zu meiner ursprünglichen Frage: Möchtest du deinen genannten Wert trotzdem beibehalten oder auf welchen Betrag soll ich ihn für dich anpassen?"
                 break
             if '/contexts/51zfragebeide' in str(query_result.get('outputContexts')[i].get('name')):
-                dummie = "Möchtest du den Wert von " + re.sub(r'(?<!^)(?=(\d{3})+$)', r'.', str(getVariableInt(
+                dummie = "Möchtest du den Wert von " + re.sub(r'(?<!^)(?=(\d{3})+$)', r'..', str(getVariableInt(
                     'abfrage_versicherungssumme'))) + "€ nun trotzdem beibehalten?"
                 break
             if '/contexts/51zfrageueber' in str(query_result.get('outputContexts')[i].get('name')):
-                dummie = "Möchtest du den Wert von " + re.sub(r'(?<!^)(?=(\d{3})+$)', r'.', str(getVariableInt(
+                dummie = "Möchtest du den Wert von " + re.sub(r'(?<!^)(?=(\d{3})+$)', r'..', str(getVariableInt(
                     'abfrage_versicherungssumme'))) + "€ nun trotzdem beibehalten?"
                 break
             if '/contexts/51zfrageunter' in str(query_result.get('outputContexts')[i].get('name')):
-                dummie = "Möchtest du den Wert von " + re.sub(r'(?<!^)(?=(\d{3})+$)', r'.', str(getVariableInt(
+                dummie = "Möchtest du den Wert von " + re.sub(r'(?<!^)(?=(\d{3})+$)', r'..', str(getVariableInt(
                     'abfrage_versicherungssumme'))) + "€ nun trotzdem beibehalten?"
                 break
             if '/contexts/52ueberunter_aendern' in str(query_result.get('outputContexts')[i].get('name')):
@@ -1028,7 +1028,7 @@ def webhook():
                 return {
                     "fulfillmentText":
                         "Vorsicht " + vorname + ", du weichst stark von der empfohlenen Versicherungssumme ab. Es könnte sein, dass du damit überversichert bist. \nMöchtest du den Wert von " + re.sub(
-                            r'(?<!^)(?=(\d{3})+$)', r'.',
+                            r'(?<!^)(?=(\d{3})+$)', r'..',
                             str(versicherungsbetrag_einrichtungswert)) + "€ trotzdem beibehalten?"
                 }
 
@@ -1038,7 +1038,7 @@ def webhook():
                 return {
                     "fulfillmentText":
                         "Vorsicht " + vorname + ", du weichst stark von der empfohlenen Versicherungssumme ab. Es könnte sein, dass du damit unterversichert bist. \nMöchtest du den Wert von " + re.sub(
-                            r'(?<!^)(?=(\d{3})+$)', r'.',
+                            r'(?<!^)(?=(\d{3})+$)', r'..',
                             str(versicherungsbetrag_einrichtungswert)) + "€ trotzdem beibehalten?"
                 }
 
@@ -1559,7 +1559,7 @@ def webhook():
                 {
                     "text": {
                         "text": [
-                            "Möchtest du den Wert von " + re.sub(r'(?<!^)(?=(\d{3})+$)', r'.',
+                            "Möchtest du den Wert von " + re.sub(r'(?<!^)(?=(\d{3})+$)', r'..',
                                                                  str(versicherungsbetrag_einrichtungswert)) + "€ trotzdem beibehalten?"
                         ]
                     },
@@ -1583,7 +1583,7 @@ def webhook():
                 {
                     "text": {
                         "text": [
-                            "Möchtest du den Wert von " + re.sub(r'(?<!^)(?=(\d{3})+$)', r'.',
+                            "Möchtest du den Wert von " + re.sub(r'(?<!^)(?=(\d{3})+$)', r'..',
                                                                  str(versicherungsbetrag_einrichtungswert)) + "€ trotzdem beibehalten?"
                         ]
                     },
@@ -1608,7 +1608,7 @@ def webhook():
                 {
                     "text": {
                         "text": [
-                            "Möchtest du den Wert von " + re.sub(r'(?<!^)(?=(\d{3})+$)', r'.',
+                            "Möchtest du den Wert von " + re.sub(r'(?<!^)(?=(\d{3})+$)', r'..',
                                                                  str(versicherungsbetrag_einrichtungswert)) + "€ trotzdem beibehalten?"
                         ]
                     },
