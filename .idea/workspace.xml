@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5db4ef75-98f3-4b4f-8a2c-7637cd5cb324" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <workItem from="1652212338060" duration="2362000" />
       <workItem from="1653299215775" duration="399000" />
       <workItem from="1653329589941" duration="856000" />
-      <workItem from="1653333981251" duration="1679000" />
+      <workItem from="1653333981251" duration="2537000" />
     </task>
     <task id="LOCAL-00001" summary="First Try">
       <created>1651144756155</created>
@@ -147,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653338098335</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Testcaone erste Schritte">
+      <created>1653338402875</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1653338402875</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Testcaone erste Schritte">
+      <created>1653338605582</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1653338605583</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
